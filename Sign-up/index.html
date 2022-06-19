@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <div class="picture">
+            <div class="logo">
+            <img src="odin-lined.png" alt="odin" >
+            <h1>DASHE</h1>
+            </div>
+        </div>
+    
+   <div class="right">
+    <div class="text-right">
+    <p>This is not a real online service! You know you need something like this in your lofe to help you realize your deepest dreams.</p>
+    <p>Sing up <em>now</em> to get started</p>
+    <p>You <em>know</em> you want to</p>
+   </div>
+
+   <form action="#">
+    <div class="form left">
+        <p class="title">Let's do this!</p>
+        <div class="input">
+            <label for="first-name">First name</label>
+            <input type="text" name="first-name" id="first-name" required>
+        </div>
+        
+        <div class="input">
+            <label for="last-name">Last name</label>
+            <input type="text" name="last-name" id="last-name">
+        </div>
+        
+        <div class="input">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        
+        <div class="input">
+            <label for="phone-number">Phone number</label>
+            <input type="text" name="phone-number" id="phone-number" minlength="9" maxlength="9">
+        </div>
+        
+        <div class="input">
+            <label for="password">Password</label>
+            <input type="password" name="passwor" id="passwor" required>
+        </div>
+        
+        <div class="input">
+            <label for="confirm-password">Confirm password</label>
+            <input type="password" name="confirm-password" id="confirm-password" required>
+        </div>
+    </div>
+</form>
+   <div class="text-right">
+     <div class="btn">
+        <button>Create Account</button>
+     </div>
+     <p>Already have an account? <a href="#">Login</a></p>
+   </div>
+    
+    
+</body>
+</html>
